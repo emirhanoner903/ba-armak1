@@ -34,10 +34,7 @@ public class olucak {
 			double ikinciSayi = scanner.nextDouble();
 			double sonuc;
 
-			switch (islem) {
-				case "+":
-					sonuc = ilkSayi + ikinciSayi;
-					break;
+			
 				case "-":
 					sonuc = ilkSayi - ikinciSayi;
 					break;
