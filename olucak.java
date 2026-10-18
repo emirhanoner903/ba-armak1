@@ -35,14 +35,18 @@ public class olucak {
 			double sonuc;
 
 			switch (islem) {
+				case "+":
+					sonuc = ilkSayi + ikinciSayi;
+					break;
 				case "-":
 					sonuc = ilkSayi - ikinciSayi;
 					break;
 				case "*":
 					sonuc = ilkSayi * ikinciSayi;
 					break;
-				
-                
+				case "/":
+					if (ikinciSayi == 0) {
+						System.out.println("Bir sayıyı sıfıra bölemezsiniz.");
 						continue;
 					}
 					sonuc = ilkSayi / ikinciSayi;
@@ -58,5 +62,6 @@ public class olucak {
 		scanner.close();
 		System.out.println("Hesap makinesi kapatıldı.");
 	}
+}
 
 
