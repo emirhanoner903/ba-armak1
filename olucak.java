@@ -41,9 +41,8 @@ public class olucak {
 				case "*":
 					sonuc = ilkSayi * ikinciSayi;
 					break;
-				case "/":
-					if (ikinciSayi == 0) {
-						System.out.println("Sıfıra bölme yapılamaz.");
+				
+                
 						continue;
 					}
 					sonuc = ilkSayi / ikinciSayi;
@@ -59,5 +58,5 @@ public class olucak {
 		scanner.close();
 		System.out.println("Hesap makinesi kapatıldı.");
 	}
-}
+
 
