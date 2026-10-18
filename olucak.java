@@ -41,9 +41,7 @@ public class olucak {
 				case "-":
 					sonuc = ilkSayi - ikinciSayi;
 					break;
-				case "*":
-					sonuc = ilkSayi * ikinciSayi;
-					break;
+				
 				case "/":
 					if (ikinciSayi == 0) {
 						System.out.println("Bir sayıyı sıfıra bölemezsiniz.");
